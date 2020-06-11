@@ -3,7 +3,7 @@ cd HAT
 git remove upstream
 git remote add upstream git@github.com:QualitySuits/HAT.git
 git fetch --all
-#rebasing the forked repository
+# rebasing the forked repository
 git rebase upstream/master
 
 git mergetool
@@ -25,7 +25,7 @@ COMMAND :  git diff HEAD
 #COMPARING BETWEEN THE STAGING AREA AND GIT REPOSITORY(LAST COMMIT)
 COMMAND :  git diff --staged HEAD
 
-# LIMITING TO ONE FILE
+## LIMITING TO ONE FILE
 COMMAND : git diff -- README.md<any_file_name_you_want_to_compare>
 
 #COMPARING BETWEEN COMMMITS
